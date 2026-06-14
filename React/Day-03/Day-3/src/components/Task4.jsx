@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const Task4 = () => {
     const [darkMode,setDarkMode] = useState(false)
