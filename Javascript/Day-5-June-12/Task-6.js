@@ -2,3 +2,11 @@
 // Task Create a function welcomeUser(). 
 // Requirements: If name is passed → print name If no name passed → print "Guest" Example welcomeUser(); welcomeUser("Ravi");
 
+
+const welcomeUser = (name ="Guest") =>{
+console.log(`Welcome ${name}`);
+
+}
+
+welcomeUser()
+welcomeUser("Ravi")

@@ -3,3 +3,9 @@
 
 
  const colors = ["Red", "Blue", "Green"];
+
+ const [colorOne, colorTwo ] = colors;
+ console.log("🔮 colorTwo", colorTwo);
+ console.log("🐿️ colorOne", colorOne);
+
+ 
